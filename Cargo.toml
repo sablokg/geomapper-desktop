@@ -1,0 +1,21 @@
+[package]
+name = "geomapper"
+version = "0.7.0"
+edition = "2021"
+readme = "README.md"
+license = "MIT"
+authors = ["Gaurav Sablok"]
+description = "geomapper for German geographical localization"
+homepage = "https://codeberg.org/gsablok/geomapper"
+repository = "https://codeberg.org/gsablok/geomapper"
+keywords = ["geospatial","geoinformatics"]
+
+[dependencies]
+clap = { version = "=4.5.28", features = ["derive"] }
+dotenv = { version = "0.15.0", features = ["clap", "cli"] }
+figlet-rs = "0.1.5"
+rayon = "1.10.0"
+tabled = "0.18.0"
+tokio = { version = "1.47.1", features = ["full"] }
+eframe = { version = "=0.24.1", default-features = false, features = ["glow", "default_fonts"] }
+egui_extras = "=0.24.1"
