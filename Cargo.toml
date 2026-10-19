@@ -6,8 +6,8 @@ readme = "README.md"
 license = "MIT"
 authors = ["Gaurav Sablok"]
 description = "geomapper for German geographical localization"
-homepage = "https://codeberg.org/gsablok/geomapper"
-repository = "https://codeberg.org/gsablok/geomapper"
+homepage = "https://github.com/sablokg/geomapper-desktop"
+repository = "https://github.com/sablokg/geomapper-desktop"
 keywords = ["geospatial","geoinformatics"]
 
 [dependencies]

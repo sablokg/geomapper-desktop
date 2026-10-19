@@ -1,7 +1,10 @@
 # geomapper GUI
 
-`src/bin/gui.rs` is a desktop egui/eframe front-end for the same two CSV
-files the CLI (`src/main.rs`) uses. Run it with:
+`src/bin/gui.rs` is a desktop egui/eframe front-end for the same two CSV files the CLI (`src/main.rs`) uses. Run it with:
+
+- Geospatial mapping data can be downloaded from here [german postcode code to location mapping](https://www.suche-postleitzahl.org/downloads).
+- Deutsch github repository[repository link](https://github.com/plzTeam).
+- polars analysis can be found here [deutsch geospatial mappers](https://github.com/zupzup/rust-polars-example).
 
 ```
 cargo run --bin gui
