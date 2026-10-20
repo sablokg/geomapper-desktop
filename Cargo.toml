@@ -1,6 +1,6 @@
 [package]
-name = "geomapper"
-version = "0.7.0"
+name = "geomapper-desktop"
+version = "0.1.0"
 edition = "2021"
 readme = "README.md"
 license = "MIT"
